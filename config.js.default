@@ -1,0 +1,19 @@
+module.exports = {
+    ip: 'proxy.example.com',
+    port: 80,
+    sourceServer: 'somehost.com',
+    sourcePort: 80,
+    sourceTimeout: 2000,
+    log: {
+        file: './http-proxy.log',
+        console: true,
+        level: 0,
+        debugKeys: [
+            'Request',
+            'CacheSize',
+            'GarbageCollection'
+        ]
+    },
+    cacheSize: 100,
+    garbageCollectionInterval: 1000
+};

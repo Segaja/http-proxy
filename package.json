@@ -1,0 +1,11 @@
+{
+    "name": "http-proxy",
+    "version": "1.0.0",
+    "description": "Http proxy",
+    "homepage": "https://github.com/aschleifer/http-proxy",
+    "author": "Andreas Schleifer <a.schleifer@segaja.de>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aschleifer/http-proxy.git"
+    }
+}
